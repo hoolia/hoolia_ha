@@ -5,12 +5,17 @@ hoolia-energy:
 
     # Background and text color
     primary-background-color: "#F3F4F8"
-    primary-text-color: "#041513"
 
     # Colors
     primary-color: "#10C166"
     accent-color: "#014038"
     light-primary-color: "#14F580"
+    text-color: "#041513"
+    primary-text-color: "var(--text-color)"
+    text-primary-color: "var(--text-color)"
+    secondary-text-color: "#10C166"
+    text-medium-light-color: "#14F580"
+    text-medium-color: "#10C166"
 
     # Shadow
     ha-card-box-shadow: "0px 5px 8px 0px #CFEBDD30"
