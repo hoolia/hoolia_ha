@@ -1,0 +1,43 @@
+---
+hoolia-energy:
+    # Theme name
+    card-mod-theme: Hoolia Energy
+
+    # Background and text color
+    primary-background-color: "#F3F4F8"
+    primary-text-color: "#041513"
+
+    # Colors
+    primary-color: "#10C166"
+    accent-color: "#014038"
+    light-primary-color: "#14F580"
+
+    # Shadow
+    ha-card-box-shadow: "0px 5px 8px 0px #CFEBDD30"
+    soft-ui-pressed: "inset 0px 5px 8px 0px #CFEBDD30"
+
+    # defaults
+    divider-color: transparent
+    ha-card-background: "var(--primary-background-color)"
+    card-background-color: "var(--primary-background-color)"
+    lovelace-background: "var(--primary-background-color)"
+    paper-item-icon-color: "var(--primary-color)"
+
+    # header
+    app-header-background-color: "var(--primary-background-color)"
+    app-header-text-color: "var(--primary-text-color)"
+    app-header-selection-bar-color: "var(--accent-color)"
+
+    # sidebar
+    sidebar-selected-icon-color: "var(--primary-color)"
+    sidebar-selected-text-color: "var(--primary-color)"
+    sidebar-text-color: "var(--primary-text-color)"
+    slider-bar-color: none
+    sidebar-selected-background-color: "var(--primary-color)"
+
+    # custom CSS
+    card-mod-card: |
+        ha-card {
+          margin: 20px;
+          border-radius: 16px;
+        }
